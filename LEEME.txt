@@ -1,0 +1,16 @@
+BASKETBALL TRAINING PRO — archivos para preparar una app Android
+
+CONTENIDO
+- index.html: aplicación interactiva completa.
+- manifest.webmanifest y sw.js: soporte básico para instalación web (PWA).
+
+FORMA MÁS SENCILLA DE PROBAR EN EL CELULAR
+1. Descomprime el ZIP.
+2. Abre index.html en un navegador compatible. Algunas funciones de instalación y almacenamiento pueden variar si se abre como archivo local.
+3. Para que se instale como PWA, publica estos archivos en un alojamiento HTTPS y abre la dirección en Chrome Android. Luego usa el menú ⋮ > Añadir a pantalla de inicio / Instalar.
+
+IMPORTANTE SOBRE EL APK
+Este ZIP NO es un APK y no instala por sí solo una app Android nativa. Para producir un APK hay que empaquetar index.html en un proyecto Android (por ejemplo, con Android Studio y WebView o Capacitor) y compilarlo. No introduzcas contraseñas ni datos privados en servicios de empaquetado desconocidos. Los recordatorios nativos requieren implementación y permisos aparte; esta app no programa alarmas del sistema.
+
+DATOS
+Los registros usan el almacenamiento local del navegador/app. Borra los datos de la app o cambia de navegador y podrías perderlos. No hay sincronización en la nube.
